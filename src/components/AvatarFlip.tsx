@@ -19,7 +19,7 @@ export default function AvatarFlip() {
         className={styles.card}
         initial={false}
         animate={{ rotateY: isFlipped ? 180 : 0 }}
-        transition={{ duration: 0.6, animationDirection: "normal" }}
+        transition={{ duration: 0.6 }}
         style={{ transformStyle: "preserve-3d" }}
       >
         {/* Front: Real Photo */}
